@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container { 
+    display: block;
+    border: 1px solid rgb(146, 146, 146);
+    margin: 50px 200px;
+    padding: 60px 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(119, 119, 119, 0.5);
+}
+
+.heading {
+    margin-bottom: 25px;
+    font-family: 'Finlandica', sans-serif;
+    font-size: 15px;
+}
+
+.textFields input{
+    margin-right: 5px;
+}
+
+.carDisplay {
+    margin-top: 20px;
+}
+
+.carDisplay h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.btn { 
+    margin-top: 20px;
+    width: 100px;
+    font-size: 12px;
+}
+
+.inputField label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 10px;
+}
